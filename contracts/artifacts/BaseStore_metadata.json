@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Allprices",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_riceP",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_waterP",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_burgerP",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_shawarmaP",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "burger",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "shawarma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "water",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Classwork.sol": "BaseStore"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Classwork.sol": {
+			"keccak256": "0x7aa809e46467ba1340a612d826965bf84d9f80976605beb5cab7db5c14907aac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4a9559df61ed115077d4817f3b1d5f109f57672160eb8bad51e882f9e71c5d31",
+				"dweb:/ipfs/QmcfbSNeq7GDu2hyKX5GTQVoDxJASq9QqhSfCQ6gxF1CsG"
+			]
+		}
+	},
+	"version": 1
+}
